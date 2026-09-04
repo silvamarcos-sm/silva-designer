@@ -49,7 +49,7 @@ a { color: inherit; text-decoration: none; }
   font-weight: 900;
   margin: 0;
   text-transform: capitalize;
-  text-align: right;
+  
 }
 
 /* ===================== BUTTONS ===================== */
@@ -195,10 +195,10 @@ a { color: inherit; text-decoration: none; }
 /* ===================== HABILIDADES ===================== */
 .skills {
   padding: 60px 0;
+  display: flex;
 }
 
 .skills__inner {
-  display: grid;
   grid-template-columns: auto 1fr 1fr;
   align-items: center;
   gap: 40px;
@@ -235,23 +235,22 @@ a { color: inherit; text-decoration: none; }
 }
 
 .tools__inner {
-  display: grid;
   grid-template-columns: 1fr 1fr auto;
   align-items: end;
-  gap: 24px;
+  gap: 235px;
 }
 
 .tools__icons {
   grid-column: 1 / -1;
   display: flex;
-  gap: 14px;
+  gap: 32px;
   flex-wrap: wrap;
   margin-bottom: 8px;
 }
 
 .tools__icons img {
-  height: 34px;
-  width: 34px;
+  height: 50px;
+  width: 50px;
   border-radius: 6px;
   background: var(--white);
   padding: 4px;
@@ -265,7 +264,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .bar-chart--vertical .bar {
-  width: 26px;
+  width: 50px;
   height: var(--h, 50%);
   background: var(--red);
   border-radius: 4px 4px 0 0;
